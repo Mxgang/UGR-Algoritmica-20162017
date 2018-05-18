@@ -1,0 +1,110 @@
+
+
+*******************************************************************************
+Sun Mar 19 18:02:27 2017
+
+
+FIT:    data read from 'tiempos_ordenacion.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*x+a1*x+a2
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1            a2           
+   0 3.9662040663e+18   0.00e+00  2.25e+08    1.000000e+00   1.000000e+00   1.000000e+00
+  12 4.0975120973e-03  -1.67e-04  2.25e-04    2.007470e-09   1.422756e-06  -4.158032e-03
+
+After 12 iterations the fit converged.
+final sum of squares of residuals : 0.00409751
+rel. change during last iteration : -1.6719e-09
+
+degrees of freedom    (FIT_NDF)                        : 23
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0133474
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000178153
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 2.00747e-09      +/- 3.875e-11    (1.93%)
+a1              = 1.42276e-06      +/- 1.171e-06    (82.3%)
+a2              = -0.00415803      +/- 0.007384     (177.6%)
+
+correlation matrix of the fit parameters:
+                a0     a1     a2     
+a0              1.000 
+a1             -0.966  1.000 
+a2              0.721 -0.850  1.000 
+
+
+*******************************************************************************
+Tue Mar 21 13:01:15 2017
+
+
+FIT:    data read from 'tiempos_ordenacion.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x+a1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1           
+   0 7.5101700566e+09   0.00e+00  1.20e+04    1.000000e+00   1.000000e+00
+   7 4.8218125794e-01  -2.89e-01  1.20e-03    6.004088e-05  -2.801249e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.482181
+rel. change during last iteration : -2.88753e-06
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141742
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0200909
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 6.00409e-05      +/- 3.195e-06    (5.322%)
+a1              = -0.280125        +/- 0.0543       (19.39%)
+
+correlation matrix of the fit parameters:
+                a0     a1     
+a0              1.000 
+a1             -0.859  1.000 
+
+
+*******************************************************************************
+Tue Mar 21 13:02:01 2017
+
+
+FIT:    data read from 'tiempos_ordenacion.dat'
+        format = z
+        #datapoints = 26
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = a0*x*log(x)+a1
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   a0            a1           
+   0 2.1779257879e+03   0.00e+00  7.20e+00    6.004088e-05  -2.801249e-01
+   4 3.6855366303e-01  -9.44e-02  7.20e-04    5.797609e-06  -2.329121e-01
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.368554
+rel. change during last iteration : -9.44032e-07
+
+degrees of freedom    (FIT_NDF)                        : 24
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.123921
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0153564
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+a0              = 5.79761e-06      +/- 2.676e-07    (4.616%)
+a1              = -0.232912        +/- 0.04534      (19.47%)
+
+correlation matrix of the fit parameters:
+                a0     a1     
+a0              1.000 
+a1             -0.844  1.000 
