@@ -1,0 +1,8 @@
+- La asignación de variables y llamada a métodos son operaciones elementales de eficiencia O(1)
+
+- El bucle for de la línea 22 es un bucle homogéneo de eficiencia O(n)
+
+-Los dobles bucles de las líneas: (39 a 47), (56 a 89), (95 a 97), (117 a 124) y (127 a 135), son bucles homogéneos que al ser dobles bucles, tienen eficiencia O(n²)
+
+- Aplicando la regla de la suma, la eficiencia sería el max(n²,n,1) que da como resultado que este código tiene de eficiencia O(n²)
+

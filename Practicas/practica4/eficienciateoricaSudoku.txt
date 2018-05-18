@@ -1,0 +1,18 @@
+- El método leerSudoku tiene 3 bucles for homogéneos, de los cuales 2 son anidados por lo que la eficiencia, aplicando la regla de la suma es el max(n², n) que da O(n²)
+
+- El método printSudoku tiene 2 bucles for homogéneos anidados, la eficiencia es 0(n²)
+
+-El método incrXY son solo condicionales cuya eficiencia es O(1)
+
+-El método checkRow tiene un bucle for homogéneo cuya eficiencia es O(n)
+
+-El método checkCol tiene un bucle for homogéneo cuya eficiencia es O(n)
+
+- El método chechGroup tiene 2 bucles for homogéneos anidados, la eficiencia es 0(n²)
+
+- El método resolverSudoku tiene un bucle While y for homogéneos pero no están anidados por lo que la eficiencia es O(n)
+
+- El Main solo tiene salidas por pantalla y llamadas a métodos cuya eficiencia es O(1)
+
+- La eficiencia del algoritmo, aplicando la regla de la suma, es el max(n²,n,1) por lo que da como resultadpo que la eficiencia del algoritmo es 0(n²)
+
